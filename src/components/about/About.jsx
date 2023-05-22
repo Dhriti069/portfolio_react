@@ -16,27 +16,25 @@ const about = () => {
             <img src={ME} alt="About me" />
           </div>
         </div>
-        <div className="about contents">
+        <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
             <FaAward className='about__icons'/>
               <h4>Experience</h4>
               <small>TechBairn</small>
-              <h6>certificate of completion</h6>
+              <small>certificate of completion</small>
               <small>Central Tool Room And Training Centre </small>
             </article>
 
             <article className='about__card'>
             <BsBook className='about__icons'/>
               <h4>Education</h4>
-              <small>Matriculation</small>
-              <h6>Dav Public School</h6>
-              <h7>2018</h7>
-              <small>Senior Secondary</small>
-              <h7>2020</h7>
-              <small>Btech</small>
-              <h6>Kalinga Institute Of Industrial Technology</h6>
-              <h7>2020 - 2024</h7>
+              <small>Matriculation:</small>
+              <small >Dav Public School : 2018</small>
+              <small>Senior Secondary : 2020</small>
+              <small>Btech:</small>
+              <small>Kalinga Institute Of Industrial Technology</small>
+              <li>2020 - 2024</li>
           
             </article>
 
@@ -44,9 +42,9 @@ const about = () => {
             <AiOutlineSafetyCertificate className='about__icons'/>
               <h4>certifications</h4>
               <small>Full Stack Web development</small>
-              <h6>certificate of Completion</h6>
+              <small>certificate of Completion</small>
               <small>AWS</small>
-              <h6>Certificate of Completion</h6>
+              <small>Certificate of Completion</small>
               <small>HackerRank(DSA)</small>
     
               

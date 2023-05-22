@@ -8,7 +8,7 @@
 .about__me {
     margin-top: 5rem;
     margin-right: 4rem;
-    width: 77%;
+    width: 50%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg , transparent , var(--color-primary),transparent);
@@ -30,17 +30,17 @@
 
 .about__cards{
     display: grid;
-    grid-template-columns: repeat(3,0.5fr);
+    grid-template-columns: repeat(3,2fr);
     gap: 1rem;
 
 }
 
 .about__card {
-    height: 80%;
+    height: 87%;
     background: var(--color-bg-variant);
     border:3px solid transparent;
     border-radius: 1rem;
-    padding: 4rem;
+    padding: 3rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -66,6 +66,9 @@
     font-size: 0.7rem;
     color: var(--color-light);
 }
+.about__content {
+  margin-right: 1000rem;
+}
 
 .about__content p {
     font-weight: 200;
@@ -73,6 +76,7 @@
     margin-bottom: 2rem;
     margin: 1rem 3 2.6rem;
     color: var(--color-light);
+    
 }
 
 /*====================== Media query(medium devices) =====================*/
@@ -122,5 +126,4 @@
       margin: 1.5rem;
     }
   }
-  
   
