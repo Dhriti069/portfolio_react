@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './about.css'
 import ME from '../../assets/about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {BsBook} from 'react-icons/bs'
+import AOS from 'aos';
 import {AiOutlineSafetyCertificate} from 'react-icons/ai'
-const about = () => {
+const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 }); // Initialize AOS inside the About component
+  }, []);
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -17,7 +21,7 @@ const about = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          <div className="about__cards" >
             <article className='about__card'>
             <FaAward className='about__icons'/>
               <h4>Experience</h4>
@@ -63,4 +67,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

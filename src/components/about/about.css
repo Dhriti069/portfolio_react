@@ -87,6 +87,16 @@
   color: var(--color-light);
 }
 
+.aos-init{
+  visibility:hidden;
+  animation: none;
+}
+
+.aos-animate{
+  visibility: visible;
+  animation: fade-in-up 0.6s ease-in-out forwards;
+}
+
 
 /*====================== Media query(small devices) =====================*/
 @media screen and (max-width: 600px) {
@@ -101,8 +111,11 @@
     margin-left: 2.6rem;
   }
 
+  #about h5 {
+    margin-right: 4.5rem;
+  }
 
-  #about h1 {
+  #about h1{
     text-align: center;
     margin-bottom: 1rem;
     color: var(--color-primary);
@@ -137,6 +150,16 @@
     margin-top: 5rem;
     margin: 1.5rem;
     text-decoration: none;
+  }
+
+  .aos-init{
+    visibility:hidden;
+    animation: none;
+  }
+  
+  .aos-animate{
+    visibility: visible;
+    animation: fade-in-up 0.6s ease-in-out forwards;
   }
 }
 
