@@ -14,6 +14,7 @@ nav {
   backdrop-filter: blur(15px);
 }
 .navv {
+ 
   display: flex;
   justify-content: center;
 }
@@ -34,4 +35,12 @@ nav a:hover {
 nav a.active {
   background: var(--color-bg);
   color: var(--color-light);
+}
+
+@media screen and (max-width: 600px) {
+  .navv{
+    margin-bottom: 1000rem;
+    margin-left: 3rem;
+    
+  }
 }

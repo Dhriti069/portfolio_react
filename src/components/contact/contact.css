@@ -56,17 +56,45 @@ textarea {
   color: var(--color-white);
 }
 
-/*====================== Media query(medium devices) =====================*/
-@media screen and (max-width: 1024px) {
-  .container.contact__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-}
-
 /*====================== Media query(small devices) =====================*/
 @media screen and (max-width: 600px) {
+   #contact {
+    margin-top: 40rem;
+    /* margin-right: 10rem; */
+  }
   .container.contact__container {
     width: var(--container-width-sm);
   }
+
+  /* .contact__option{
+    width: 10rem;
+    height: 10rem;
+  } */
+
+  .contact__option {
+    width:10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } 
+
+  .contact__option h4,
+  .contact__option h5 {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+    form{
+      margin-left: 3rem;
+    } 
+
+
+    
 }
+  
+
+
+

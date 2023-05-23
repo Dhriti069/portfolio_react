@@ -27,18 +27,23 @@
     margin-bottom: 1rem;
 }
 
-/*====================== Media query(medium devices) =====================*/
-@media screen and (max-width : 1024px){
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-}
   /*====================== Media query(small devices) =====================*/
   @media screen and (max-width : 600px){
+
+    #portfolio {
+        margin-top: 50rem;
+        margin-left:1.9rem;
+    }
    
     .portfolio__container{
         grid-template-columns: 1fr ;
         gap: 1rem;
+        margin-right: 12rem;
+    }
+
+    .portfolio__item{
+        width:22rem;
+        height:26rem;
+        margin-left: -0.3rem;
     }
 }

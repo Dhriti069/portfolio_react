@@ -61,8 +61,8 @@ const Experience = () => {
 
             <article className='experience__details'>
               <BsFillPatchCheckFill />
-              <h4>Python</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>JAVA</h4>
+              <small className='text-light'>Intermediate</small>
             </article>
           </div>
         </div>

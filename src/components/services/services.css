@@ -55,20 +55,21 @@
   font-size: 0.9rem;
 }
 
-/*====================== Media query(medium devices) =====================*/
-@media screen and (max-width: 1024px) {
-  .services__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-  .service {
-    height: auto;
-  }
-}
 /*====================== Media query(small devices) =====================*/
 @media screen and (max-width: 600px) {
+  #services{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+  }
   .services__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+
+  .service {
+    height: auto;
+    width:21.6rem;
+  }
 }
+
