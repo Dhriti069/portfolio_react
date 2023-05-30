@@ -32,18 +32,18 @@
 
     #portfolio {
         margin-top: 50rem;
-        margin-left:1.9rem;
+        margin-right:1rem;
     }
    
     .portfolio__container{
         grid-template-columns: 1fr ;
         gap: 1rem;
-        margin-right: 12rem;
+        margin-right: 15rem;
     }
 
     .portfolio__item{
-        width:22rem;
+        width:21rem;
         height:26rem;
-        margin-left: -0.3rem;
+        margin-left: -0.5rem;
     }
 }

@@ -59,7 +59,7 @@
 @media screen and (max-width: 600px) {
   #services{
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
     
   }
   .services__container {
@@ -70,6 +70,7 @@
   .service {
     height: auto;
     width:21.6rem;
+    width: 20rem;
   }
 }
 

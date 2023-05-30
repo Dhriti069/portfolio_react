@@ -82,7 +82,7 @@ header {
     position: relative;
   }
   .header__container h5,h1{
-    margin-right: 3rem;
+    margin-right: 4.9rem;
     font-size: medium;
   }
 
@@ -92,27 +92,28 @@ header {
     display: flex;
     gap: 1rem;
     justify-content: center;
-    margin-left: 2rem;
+    
   }
 
   .header__socials,
   .scroll__down {
     display: none;
-    margin-right: 10rem;
+    margin-right: 5rem;
   }
 
-  .me {
-      width: 16rem;
-      height: 22rem;
-      left: calc(50% - 9rem); /* Adjust the value as needed */
-      margin-top: 3.5rem;
-      border-radius: 7.5rem 7.5rem 0 0; /* Adjust the value as needed */
-    
-  }
+ .me {
+    width: 16rem;
+    height: 22rem;
+    left: calc(45% - 9em);
+    margin-top: 3.5rem;
+    border-radius: 7.5rem 7rem 3rem 3rem;
+    margin-right: 1rem;
+}
 
   #yay {
     border-radius: 9rem 9rem 0 0;
     height: 90%;
+    
   }
 }
 
