@@ -14,13 +14,10 @@ const services = () => {
             <h3>UI/UX Design</h3>
             </div>
             <ul className='service-list'>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created a UI/UX design using Figma.</p>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created campusKonnect project to life,using Figma</p>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created Customer Care project,usingFigma.</p>
-            </ul>
+              <li><BsCheck className='service__list-icon'/> Created a TravelScape project using Figma.</li>
+              <li><BsCheck className='service__list-icon'/> Created campusKonnect project to life,using Figma</li>
+              <li><BsCheck className='service__list-icon'/> Created Customer Care project,usingFigma.</li>
+              </ul>
           
         </article>
 
@@ -29,12 +26,9 @@ const services = () => {
             <h3>Web Development</h3>
               </div>
             <ul className='service-list'>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created Portfolio using html,css,js</p>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created Netflix Clone using reactjs </p>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created React weather App</p>
+              <li><BsCheck className='service__list-icon'/> Created Portfolio using reactjs</li>
+              <li><BsCheck className='service__list-icon'/> Created Netflix Clone using reactjs</li>
+              <li><BsCheck className='service__list-icon'/> Created React weather App</li>
             </ul>
         
         </article>
@@ -44,12 +38,7 @@ const services = () => {
             <h3>Flutter Development</h3>
              </div>
             <ul className='service-list'>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created CamusKonnect Mobile App using dart</p>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created CamusKonnect Mobile App using dart</p>
-              <li><BsCheck className='service__list-icon'/></li>
-              <p>Created CamusKonnect Mobile App using dart</p>
+              <li><BsCheck className='service__list-icon'/> Created CamusKonnect Mobile App using flutter and dart</li>
             </ul>
          
         </article>

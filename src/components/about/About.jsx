@@ -25,38 +25,39 @@ const About = () => {
             <article className='about__card'>
             <FaAward className='about__icons'/>
               <h4>Experience</h4>
-              <small>TechBairn</small>
-              <small>certificate of completion</small>
-              <small>Central Tool Room And Training Centre </small>
+              <small>Internship:</small>
+              <small><li>Salesforce Developer at Deloitte</li></small>
+              <small><li>User Experience Researcher at TCS</li></small>
+             
             </article>
 
             <article className='about__card'>
             <BsBook className='about__icons'/>
               <h4>Education</h4>
-              <small>Matriculation:</small>
-              <small >Dav Public School : 2018</small>
-              <small>Senior Secondary : 2020</small>
-              <small>Btech:</small>
-              <small>Kalinga Institute Of Industrial Technology</small>
-              <li>2020 - 2024</li>
+              <small><li>Matriculation:</li></small>
+              <small><li>Dav Public School : 2018</li></small>
+              <small><li>Senior Secondary : 2020</li></small>
+              <small><li>Btech:</li></small>
+              <small><li>Kalinga Institute Of Industrial Technology</li></small>
+              <small><li>2020 - 2024</li></small>
           
             </article>
 
             <article className='about__card'>
             <AiOutlineSafetyCertificate className='about__icons'/>
               <h4>certifications</h4>
-              <small>Full Stack Web development</small>
-              <small>certificate of Completion</small>
-              <small>AWS</small>
-              <small>Certificate of Completion</small>
-              <small>HackerRank(DSA)</small>
+              <small><li><b>1.Full Stack Web development</b></li></small>
+              <small><li>certificate of Completion:</li></small>
+              <small><li><b>2. AWS</b></li></small>
+              <small><li>Certificate of Completion</li></small>
+              <small><b>3. HackerRank(DSA)</b></small>
     
               
             </article>
           </div>
 
           <p>
-          Hi ,I am Dhriti Das . Presently I am pursuing my bachelor's of technology in computer science at KIIT University.Pursuing a Bachelor of Technology in Computer Science at KIIT University was a natural choice for me, as I believe this institution offers the best opportunities to achieve my academic and professional goals. Over the past three years, I have been commited to my studies, university, and community involvement programmes. As I approach the final year of my college career, I am eager to enter the workforce and start applying the skills and knowledge I have gained. I am confident that my education and dedication have prepared me for success in my field, and I look forward to securing a full-time position upon graduation.
+          Hello, I am Dhriti Das, a dedicated and confident student pursuing a Bachelor of Technology in Computer Science at KIIT University. Throughout my three years, I have immersed myself in studies and community involvement, preparing myself for success in my field. As I approach graduation, I am eager to apply my skills and knowledge to a full-time position and contribute to the success of a dynamic company. I am excited about the possibilities and committed to making a meaningful impact in my career journey. Thank you for considering me; I look forward to the opportunity.
           </p>
           <a href="#contact" className='btn btn-primary'>Lets Talk</a>
           </div>

@@ -45,7 +45,8 @@
 }
 
 .about__card {
-  height: 87%;
+  height: 85%;
+  width: 15rem;
   background: var(--color-bg-variant);
   border: 3px solid transparent;
   border-radius: 1rem;

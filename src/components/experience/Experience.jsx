@@ -32,27 +32,28 @@ const Experience = () => {
 
             <article className='experience__details'>
               <BsFillPatchCheckFill />
-              <h4>BOOTSTRAP</h4>
+              <h4>FIGMA</h4>
               <small className='text-light'>Intermediate</small>
             </article>
 
             <article className='experience__details'>
               <BsFillPatchCheckFill />
-              <h4>REACT</h4>
+              <h4>REACTJS</h4>
+              <small className='text-light'>Experienced</small>
+            </article>
+
+            <article className='experience__details'>
+              <BsFillPatchCheckFill />
+              <h4>Flutter</h4>
               <small className='text-light'>Experienced</small>
             </article>
           </div>
         </div>
+        
 
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
-            <article className='experience__details'>
-              <BsFillPatchCheckFill />
-              <h4>MONGODB</h4>
-              <small className='text-light'>Experienced</small>
-            </article>
-
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <h4>MYSQL</h4>

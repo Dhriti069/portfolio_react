@@ -15,10 +15,10 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Netflix Clone</h3>
+          <h3>TravelScape</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/Dhriti069" className='btn'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
+          <a href="https://www.figma.com/file/QfCLAghsNrTY62rp5e6IO2/TravelScape?type=design&node-id=0%3A1&mode=design&t=DhIQNKITM4TiLmu4-1" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
 
@@ -40,7 +40,7 @@ const portfolio = () => {
           <h3>CampusKonnect</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/Dhriti069" className='btn'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary'>Live Demo</a>
+          <a href="" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
 
