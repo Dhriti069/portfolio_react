@@ -24,14 +24,14 @@ const contact = () => {
             <AiFillLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>dhritidas</h5>
-            <a href="https://m.me/dhritidas" target='_blank'>Send a Message</a>
+            <a href="https://www.linkedin.com/in/dhritidas/" target='_blank'>Send a Message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+6370426985</h5>
-            <a href="https://api.whatsapp.com/send?/phone+1234567891" target='_blank'>Send a Message</a>
+            <a href="https://web.whatsapp.com/phone+1234567891" target='_blank'>Send a Message</a>
           </article>
         </div>
         <form action="">
